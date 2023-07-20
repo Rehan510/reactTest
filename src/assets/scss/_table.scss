@@ -1,0 +1,55 @@
+@import './variable';
+
+.compaign-table {
+  background: #fff;
+  table {
+    width: 100%;
+  }
+  td {
+    color: var(--dark-sapphire-5, #616e82);
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px 8px 20px 16px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    gap: 10px;
+  }
+  th {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 16px 8px 16px 16px;
+    color: $primaryColor;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+  }
+  .table-footer {
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    padding: 8px 16px;
+    align-items: center;
+    p {
+      color: var(--grey-sapphire-2, #98a2b2);
+      font-family: $fontFamily;
+      font-size: 12px;
+      text-align: left;
+      font-style: normal;
+      font-weight: 400;
+      margin: 0;
+      line-height: 20px;
+    }
+  }
+  ul {
+    margin: 0;
+  }
+  li {
+    margin: 0 !important;
+    list-style-type: none;
+  }
+}
