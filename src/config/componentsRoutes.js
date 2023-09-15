@@ -1,36 +1,36 @@
-import OneLoad from '../components/example';
-import Tab1 from '../components/example/Tab1';
-import Tab2 from '../components/example/Tab2';
-import Tab3 from '../components/example/Tab3';
+import OneLoad from "../components/example";
+import Tab1 from "../components/example/Tab1";
+import Tab2 from "../components/example/Tab2";
+import Tab3 from "../components/example/Tab3";
 export const nestedRoutes = [
   {
-    label: 'OneLoad',
+    label: "OneLoad",
     disabled: false,
     index: true,
     component: <OneLoad />,
-    path: '/oneload',
+    path: "/oneload",
     children: [
       {
-        label: 'Tab1',
+        label: "Tab1",
         disabled: false,
         component: <Tab1 />,
         index: false,
-        path: 'tab1',
+        path: "tab1",
         children: []
       },
       {
-        label: 'Tab2',
+        label: "Tab2",
         disabled: false,
         component: <Tab2 />,
         index: false,
-        path: 'tab2'
+        path: "tab2"
       },
       {
-        label: 'Tab3',
+        label: "Tab3",
         disabled: false,
         component: <Tab3 />,
         index: false,
-        path: 'tab3'
+        path: "tab3"
       }
     ]
   }
@@ -38,10 +38,10 @@ export const nestedRoutes = [
 
 export const singleRoutes = [
   {
-    label: 'OneLoad',
+    label: "OneLoad",
     disabled: false,
     index: true,
     component: <OneLoad />,
-    path: '/oneload'
+    path: "/oneload"
   }
 ];

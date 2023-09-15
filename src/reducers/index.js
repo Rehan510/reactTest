@@ -1,11 +1,11 @@
 import oneLoadSlice from './oneLoadSlice';
 import oneZappSlice from './oneZappSlice';
-import communicationSlice from './communication';
-import campaignSlice from './campaign';
+import telemartSlice from './telemart';
+import termAndLoanService from './termloans';
 const reducers = {
   oneLoadSlice,
   oneZappSlice,
-  communicationSlice,
-  campaignSlice
+  telemartSlice,
+  termAndLoanService
 };
 export default reducers;
